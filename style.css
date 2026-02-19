@@ -17,7 +17,7 @@
 }
 
 body {
-    background-image: url(./assets/background.jpg);
+    background-image: url(./assets/djasiojdoiasjodjasoj.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -186,10 +186,6 @@ body {
     z-index: 9999; 
     display: block;
 }
-
-.user-icon { background-image: url(./assets/user.png); }
-.lock-icon { background-image: url(./assets/lock.png); }
-.mail-icon { background-image: url(./assets/mail.png); }
 
 
 /* to fix autocomplete messing appearance */
