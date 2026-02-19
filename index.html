@@ -8,56 +8,7 @@
         <script type="module" src="https://pyscript.net/releases/2024.3.1/core.js"></script>
 </head>
 <body>
+    <div id = "textarea"></div>
     <py-script src="login.py"/>
-    <main class="loginpage" aria-labelledby="login-heading">
-        <h1 id="login-heading">Game</h1>
-
-        <form id="loginForm" action="#" method="POST" novalidate>
-            <div class="login glass">
-
-                <label for="username" class="sr-only">Player 1.1</label>
-                <div class="input-wrapper user-wrapper">
-                    <input
-                        type="text"
-                        id="username"
-                        name="username"
-                        placeholder="username"
-                        minlength="3"
-                        maxlength="50"
-                        autocomplete="username"
-                        required
-                        aria-describedby="invalid-user"
-                    />
-                    <span class="input-icon user-icon" aria-hidden="true"></span>
-                </div>
-                <div id="invalid-user" class="error" aria-live="polite"></div>
-
-                <label for="password" class="sr-only">Player 2.1</label>
-                <div class="input-wrapper lock-wrapper">
-                    <input
-                        type="password"
-                        id="password"
-                        name="password"
-                        placeholder="password"
-                        minlength="8"
-                        maxlength="50"
-                        autocomplete="current-password"
-                        required
-                        aria-describedby="invalid-pass"
-                    />
-                    <span class="input-icon lock-icon" aria-hidden="true"></span>
-                </div>
-                <div id="invalid-pass" class="error" aria-live="polite"></div>
-
-                <div id="same-user-pw" class="error" aria-live="polite"></div>
-            </div>
-
-            <div class="submit">
-                <button type="submit" id="submitBtn" class="login-btn">Record</button>
-            </div>
-        </form>
-
-    </main>
-
 </body>
 </html>
