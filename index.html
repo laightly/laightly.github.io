@@ -3,17 +3,17 @@
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>Login</title>
+    <title>Shengji Elo Tracker</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <main class="loginpage" aria-labelledby="login-heading">
-        <h1 id="login-heading">Login</h1>
+        <h1 id="login-heading">Game</h1>
 
         <form id="loginForm" action="#" method="POST" novalidate>
             <div class="login glass">
 
-                <label for="username" class="sr-only">Username</label>
+                <label for="username" class="sr-only">Player 1.1</label>
                 <div class="input-wrapper user-wrapper">
                     <input
                         type="text"
@@ -30,7 +30,7 @@
                 </div>
                 <div id="invalid-user" class="error" aria-live="polite"></div>
 
-                <label for="password" class="sr-only">Password</label>
+                <label for="password" class="sr-only">Player 2.1</label>
                 <div class="input-wrapper lock-wrapper">
                     <input
                         type="password"
@@ -50,16 +50,8 @@
                 <div id="same-user-pw" class="error" aria-live="polite"></div>
             </div>
 
-            <div class="remember-me">
-                <div class="remember">
-                    <input type="checkbox" name="remember" id="remember">
-                    <label for="remember">remember me</label>
-                </div>
-                <a href="#" class="forgot">Forgot Password?</a>
-            </div>
-
             <div class="submit">
-                <button type="submit" id="submitBtn" class="login-btn">Login</button>
+                <button type="submit" id="submitBtn" class="login-btn">Record</button>
             </div>
         </form>
 
